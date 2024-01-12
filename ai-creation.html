@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Creation</title>
+
+    <link rel="stylesheet" href="styles/global.css">
+    
+    <link rel="stylesheet" href="styles/mobile-style.css" media="screen and (min-width: 0px) and (max-width: 499px)">
+    
+    <link rel="stylesheet" href="styles/tablet-style.css" media="screen and (min-width: 500px) and (max-width: 899px)">
+
+    <link rel="stylesheet" href="styles/desktop-style.css" media="screen and (min-width: 900px)">
+</head>
+<body>
+
+    <aside class="sidebar">
+        <div class="logo_section">
+            <div>
+                <div class="logo">
+                    <img src="/assets/Logo.svg" alt="" srcset="">
+                </div>
+                <h1>PopAi</h1>
+            </div>
+
+            <button class="close_menu" onclick="show()">
+                <img id="close_icon" src="/assets/close_icon.svg" alt="">
+            </button>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="aside_navigations">
+
+            <!-- <div class="new_chat_btn">
+                <img src="/assets/add_icon.svg" alt="">
+                <input type="button" value="New Chat">
+            </div> -->
+
+            <ul class="nav_links">
+                <li>
+                    <a href="chat-with-doc.html">
+                        <div class="nav_link_items">
+                            <img src="/assets/create_icon.svg" alt="">
+                            <p>Chat with Document</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="ai-creation.html">
+                        <div class="nav_link_items" id="active_tab">
+                            <img src="/assets/document_icon.svg" alt="">
+                            <p>AI Creation</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="divider"></div>
+    </aside>
+
+    
+    <div class="main_content_border">
+        <main>
+            <button class="hamburger" onclick="show()">
+                <img id="menu_icon" src="/assets/menu_icon.svg" alt="">
+            </button> 
+    
+            <div class="homepage_scroll">
+                <div>
+                    <!-- Header Section -->
+                    <div class="header_section">
+                        <div class="logo">
+                            <div>
+                                <img src="/assets/Logo.svg" alt="" srcset="">
+                            </div>
+                            <h1>PopAi</h1>
+                        </div>
+                        <div class="head_divider"></div>
+                        <p>Your Personal AI Workspace</p>
+                    </div>
+    
+        
+                    <!-- Creation Templates Section  -->
+        
+                    <div class="content_block_2">
+                        <div class="content_block_headers">
+                            <h1 class="content_block_title">Creation Templates</h1>
+                            <a class="content_block_cta" href="">View All ></a>
+                        </div>
+                        <div class="content_holder_2">
+                            <div class="card_item_2">
+                                <div class="card_img"></div>
+                                <h1 class="card_title">Educational Writing</h1>
+                                <p class="card_subtitle">essay, resume, interview, research</p>
+                            </div>
+                            <div class="card_item_2">
+                                <div class="card_img"></div>
+                                <h1 class="card_title">Presentation</h1>
+                                <p class="card_subtitle">speech & slides</p>
+                            </div>
+                            <div class="card_item_2">
+                                <div class="card_img"></div>
+                                <h1 class="card_title">Flowchart</h1>
+                                <p class="card_subtitle">flowcharts, data collection and visualization</p>
+                            </div>
+                            <div class="card_item_2">
+                                <div class="card_img"></div>
+                                <h1 class="card_title">Professional Writing</h1>
+                                <p class="card_subtitle">SEO, blogs, articles, summarization, social media management, video</p>
+                            </div>
+                            <div class="card_item_2">
+                                <div class="card_img"></div>
+                                <h1 class="card_title">Prompt Generator</h1>
+                                <p class="card_subtitle">generating art prompts and creative inspirations</p>
+                            </div>
+                            <div class="card_item_2">
+                                <div class="card_img"></div>
+                                <h1 class="card_title">Coding Answer</h1>
+                                <p class="card_subtitle">software and web development Q&A</p>
+                            </div>
+                            <div class="card_item_2">
+                                <div class="card_img"></div>
+                                <h1 class="card_title">Professional Writing</h1>
+                                <p class="card_subtitle">SEO, blogs, articles, summarization, social media management, video</p>
+                            </div>
+                            <div class="card_item_2">
+                                <div class="card_img"></div>
+                                <h1 class="card_title">Prompt Generator</h1>
+                                <p class="card_subtitle">generating art prompts and creative inspirations</p>
+                            </div>
+                            <div class="card_item_2">
+                                <div class="card_img"></div>
+                                <h1 class="card_title">Coding Answer</h1>
+                                <p class="card_subtitle">software and web development Q&A</p>
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

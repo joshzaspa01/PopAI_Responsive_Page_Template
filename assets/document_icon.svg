@@ -1,0 +1,18 @@
+<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Link &#226;&#134;&#146; SVG">
+<g id="Group">
+<path id="Vector" d="M12.6481 6.03339L11.9289 5.325C11.3959 4.8 10.7107 4.5 10.0254 4.5H7.05584C5.9137 4.5 5 5.4 5 6.525V8.4H9.83089C10.2189 8.4 10.5896 8.23893 10.8544 7.95525L12.6481 6.03339Z" fill="url(#paint0_linear_1_17)"/>
+<path id="Vector_2" d="M5 9.60001V15.9C5 17.1 5.9137 18 7.05584 18H17.9442C19.0863 18 20 17.1 20 15.975V8.62501C20 7.50001 19.0863 6.60001 17.9442 6.60001H13.7607L11.7316 8.77404C11.2399 9.30089 10.5516 9.60001 9.83089 9.60001H5Z" fill="url(#paint1_linear_1_17)"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1_17" x1="6.87476" y1="16.7344" x2="17.4558" y2="5.91962" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5D43FF"/>
+<stop offset="1" stop-color="#5ED8FF"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1_17" x1="6.87476" y1="16.7344" x2="17.4558" y2="5.91963" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5D43FF"/>
+<stop offset="1" stop-color="#5ED8FF"/>
+</linearGradient>
+</defs>
+</svg>
