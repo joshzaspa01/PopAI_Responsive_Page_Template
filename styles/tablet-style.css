@@ -71,32 +71,23 @@ aside p, h1 {
   color: #ffffff;
 }
 
-aside > .logo_section {
+aside .logo_section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin: 8px 0px 0px 0px;
 }
 
-aside > .logo_section > div {
+aside .logo_cta {
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 8px;
-  /* background-color: #5653FF; */
+  justify-content: flex-start;
+  width: 100%;
 }
 
-aside > .logo_section .logo {
-  display: flex;
-  background-color: rgb(226, 226, 226, 0.12);
-  justify-content: center;
-  align-items: center;
-  border-radius: 12px;
-}
-
-aside > .logo_section img {
-  width: 40px;
-  height: 40px;
+aside .logo_section > .logo_cta > .sidebar_logo {
+  width: 132px;
   flex-shrink: 0;
 }
 
@@ -220,6 +211,7 @@ main > .homepage_scroll > div > .header_section {
   justify-content: flex-start;
   align-items: center;
   width: 100%;
+  gap: 8px;
   /* background-color: #5653FF; */
 }
 
@@ -234,14 +226,7 @@ main > .homepage_scroll > div > .header_section > .head_divider {
 }
 
 main > .homepage_scroll > div > .header_section > .logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-main > .homepage_scroll > div > .header_section > .logo > div > img {
-  width: 80px;
-  height: 80px;
+  width: 182px
 }
 
 main > .homepage_scroll > div >.header_section > .logo > h1 {
@@ -261,7 +246,6 @@ main > .homepage_scroll > div > .header_section > p {
   font-style: normal;
   font-weight: 500;
   letter-spacing: -1.28px;
-  margin-top: -14px;
 }
 
 
@@ -401,6 +385,12 @@ main .content_holder > .card_item {
   cursor: pointer;
 }
 
+.content_holder > #card_item_bg_img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .content_holder > .card_item > .card_title {
   color: rgba(0, 0, 0, 0.70);
   font-family: Poppins;
@@ -457,13 +447,21 @@ main .content_block_2 {
   cursor: pointer;
 }
 
-.content_holder_2 > .card_item_2 > .card_img {
+.content_holder_2 > .card_item_2 > .card_img_cont {
   background: #fff1c0;
   width: 100%;
   height: 112px;
   flex-shrink: 0;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
+.card_item_2 > .card_img_cont > .card_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
 
 .content_holder_2 > .card_item_2 > .card_title {
   color: rgba(0, 0, 0, 0.88);

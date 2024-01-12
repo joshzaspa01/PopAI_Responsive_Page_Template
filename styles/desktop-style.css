@@ -27,42 +27,23 @@ aside p, h1 {
   color: #ffffff;
 }
 
-aside > .logo_section {
+aside .logo_section {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
-aside > .logo_section > div {
-  display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 8px;
+  margin: 12px 0px 0px 0px;
+  width: 100%;
   /* background-color: #5653FF; */
 }
 
-aside > .logo_section .logo {
-  display: flex;
-  background-color: rgb(226, 226, 226, 0.12);
-  justify-content: center;
-  align-items: center;
-  border-radius: 12px;
+.logo_section > .logo_cta {
+  width: 100%;
 }
 
-aside > .logo_section img {
-  width: 40px;
-  height: 40px;
+aside .logo_section > .logo_cta > .sidebar_logo {
+  width: 156px;
   flex-shrink: 0;
-}
-
-aside > .logo_section h1 {
-  font-family: Poppins;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 32px;
-  letter-spacing: -0.8px;
 }
 
 aside > .divider {
@@ -79,7 +60,7 @@ aside > .aside_navigations {
   gap: 16px;
 }
 
-/* .aside_navigations > .new_chat_btn {
+.aside_navigations > .new_chat_btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,7 +70,7 @@ aside > .aside_navigations {
   height: 40px;
   padding: 0px 20px; 
   gap: 12px;
-} */
+}
 
 .aside_navigations > .new_chat_btn > img {
   width: 14px;
@@ -176,6 +157,7 @@ main > .homepage_scroll > div > .header_section {
   align-items: center;
   gap: 14px;
   width: 100%;
+  padding: 0px 12px;
   /* background-color: #5653FF; */
 }
 
@@ -188,15 +170,8 @@ main > .homepage_scroll > div > .header_section > .head_divider {
   justify-content: center;
 }
 
-main > .homepage_scroll > div > .header_section > .logo {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-main > .homepage_scroll > div > .header_section > .logo > div > img {
-  width: 80px;
-  height: 80px;
+main > .homepage_scroll > div > .header_section > .logo  {
+  width: 182px;
 }
 
 main > .homepage_scroll > div >.header_section > .logo > h1 {
@@ -356,16 +331,22 @@ main .content_holder > .card_item {
   cursor: pointer;
 }
 
+.content_holder > #card_item_bg_img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
 .content_holder > .card_item > .card_title {
   color: rgba(0, 0, 0, 0.70);
   font-family: Poppins;
-  width: 200px;;
+  width: 180px;;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: 16.8px;
 }
-
 
 .content_holder > .card_item > .card_cta {
   padding: 8px 12px;
@@ -412,11 +393,20 @@ main .content_block_2 {
   cursor: pointer;
 }
 
-.content_holder_2 > .card_item_2 > .card_img {
+.content_holder_2 > .card_item_2 > .card_img_cont {
   background: #fff1c0;
   width: 100%;
   height: 112px;
   flex-shrink: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card_item_2 > .card_img_cont > .card_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .content_holder_2 > .card_item_2 > .card_title {

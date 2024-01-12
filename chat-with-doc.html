@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat with Document</title>
+    <title>Chat with Documents</title>
 
     <link rel="stylesheet" href="styles/global.css">
     
@@ -18,15 +18,11 @@
 
     <aside class="sidebar">
         <div class="logo_section">
-            <div>
-                <div class="logo">
-                    <img src="/assets/Logo.svg" alt="" srcset="">
-                </div>
-                <h1>PopAi</h1>
-            </div>
-
+            <a class="logo_cta" href="index.html">
+                <img class="sidebar_logo" src="assets/image/AIPRO-WHITE.png" alt="" srcset="">
+            </a>
             <button class="close_menu" onclick="show()">
-                <img id="close_icon" src="/assets/close_icon.svg" alt="">
+                <img id="close_icon" src="assets/close_icon.svg" alt="">
             </button>
         </div>
 
@@ -35,7 +31,7 @@
         <div class="aside_navigations">
 
             <!-- <div class="new_chat_btn">
-                <img src="/assets/add_icon.svg" alt="">
+                <img src="assets/add_icon.svg" alt="">
                 <input type="button" value="New Chat">
             </div> -->
 
@@ -43,7 +39,7 @@
                 <li>
                     <a href="chat-with-doc.html">
                         <div class="nav_link_items" id="active_tab">
-                            <img src="/assets/create_icon.svg" alt="">
+                            <img src="assets/create_icon.svg" alt="">
                             <p>Chat with Document</p>
                         </div>
                     </a>
@@ -51,7 +47,7 @@
                 <li>
                     <a href="ai-creation.html">
                         <div class="nav_link_items">
-                            <img src="/assets/document_icon.svg" alt="">
+                            <img src="assets/document_icon.svg" alt="">
                             <p>AI Creation</p>
                         </div>
                     </a>
@@ -66,19 +62,14 @@
     <div class="main_content_border">
         <main>
             <button class="hamburger" onclick="show()">
-                <img id="menu_icon" src="/assets/menu_icon.svg" alt="">
+                <img id="menu_icon" src="assets/menu_icon.svg" alt="">
             </button> 
     
             <div class="homepage_scroll">
                 <div>
                     <!-- Header Section -->
                     <div class="header_section">
-                        <div class="logo">
-                            <div>
-                                <img src="/assets/Logo.svg" alt="" srcset="">
-                            </div>
-                            <h1>PopAi</h1>
-                        </div>
+                        <img class="logo" src="assets/image/AIPRO-BLACK.png" alt="" srcset="">
                         <div class="head_divider"></div>
                         <p>Your Personal AI Workspace</p>
                     </div>
@@ -94,7 +85,7 @@
                             <div class="file_upload">
                                 <div class="drop_box">
                                     <div>
-                                        <img src="/assets/file_upload_icon.svg" alt="">
+                                        <img src="assets/file_upload_icon.svg" alt="">
                                         <h1 class="description">Click to Upload or Drop PDF/DOC here</h1>                    
                                     </div>
                                     <input type="file" id="file" style="display: none;">
@@ -103,6 +94,7 @@
                             </div>
                         </div>
                     </div>
+        
                 </div>
             </div>
             
