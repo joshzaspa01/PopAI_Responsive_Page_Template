@@ -1,0 +1,62 @@
+{
+    "createTemplates": [
+        {
+            "coverImg": "assets/image/grammar_ai.jpg",
+            "title": "Educational Writing",
+            "subTitle": "essay, resume, interview, research"
+        },
+        {
+            "coverImg": "assets/image/teacher_ai.png",
+            "title": "Presentation",
+            "subTitle": "speech & slides"
+        },
+        {
+            "coverImg": "assets/image/restore_photo.png",
+            "title": "Flowchart",
+            "subTitle": "flowcharts, data collection and visualization"
+        },
+        {
+            "coverImg": "assets/image/avatar_maker.png",
+            "title": "Professional Writing",
+            "subTitle": "SEO, blogs, articles, summarization, social media management, video"
+        },
+        {
+            "coverImg": "assets/image/translate_now.png",
+            "title": "Prompt Generator",
+            "subTitle": "generating art prompts and creative inspirations"
+        },
+        {
+            "coverImg": "assets/image/interior_ai.png",
+            "title": "Coding Answer",
+            "subTitle": "software and web development Q&A"
+        },
+        {
+            "coverImg": "assets/image/trips_ai.png",
+            "title": "Professional Writing",
+            "subTitle": "SEO, blogs, articles, summarization, social media management, video"
+        },
+        {
+            "coverImg": "assets/image/recipe_maker.png",
+            "title": "Prompt Generator",
+            "subTitle": "generating art prompts and creative inspirations"
+        },
+        {
+            "coverImg": "assets/image/background_eraser.png",
+            "title": "Coding Answer",
+            "subTitle": "software and web development Q&A"
+        }
+    ],
+
+    "AIPresentations": [
+        {
+            "coverImg": "assets/image/chatbot_pro.jpg",
+            "title": "Create new presentation from a single topic",
+            "cardCTA": "Enter your topic >"
+        },
+        {
+            "coverImg": "assets/image/dream_photo.png",
+            "title": "Get started with ready-made templates",
+            "cardCTA": "Explore Templates >"
+        }
+    ]
+}
